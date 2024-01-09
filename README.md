@@ -14,7 +14,7 @@ To run everything, you need to have the following installed:
 2. Gradle 8.5
 3. Docker Engine
 
-The two files worth looking at are `AppTest.java` found in the `app/src/test/java/io/readyset/bygone/` directory and the `Employee.java` file in the `app/src/main/java/io/readyset/bygone/` directory. The former class drives the latter; what's more, there are only two queries present. One is a simple point query and the other does a three way join. Both queries are supported by ReadySet. 
+The two files worth looking at are `AppTest.java` found in the `app/src/test/java/io/readyset/bygone/` directory and the `Employee.java` file in the `app/src/main/java/io/readyset/bygone/` directory. The former class drives the latter; what's more, there are only two queries present. One is a simple point query and the other does a three way join. Both queries are supported by ReadySet. There's a lot more that can be added to this project, but it's good enough for now to demonstrate simple JDBC reads. 
 
 ## Directions to spin-up bygone-era
 
