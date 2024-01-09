@@ -31,7 +31,7 @@ To run everything, you need to have the following installed:
 
 3. I'm lazy and am making this step manual for now: wait about a minute for ReadySet to snapshot. You can check the logs for ReadySet and look for the line that says streaming replication has started and then you know things are good go. Once ReadySet is ready, run `gradle test`. 
 
-4. The previous step will run 4 JUnit tests successfully if Postgres and ReadySet are running. Shell into ReadySet via `psql postgresql://postgres:hoodoo@localhost:5433/hoodoo` and issue a `show proxied queries;`  command. You should see two cache-able queries. Cache them via the `create cache from <cache_id>` command. 
+4. The previous step will run 4 JUnit tests successfully if Postgres and ReadySet are running. Shell into ReadySet via `psql postgresql://postgres:hoodoo@localhost:5433/hoodoo` and issue a `show proxied queries`  command. You should see two cache-able queries. Cache them via the `create cache from <cache_id>` command. 
 
 5. Rerun `gradle test` to verify that JDBC is going through ReadySet now! 
 
