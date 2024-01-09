@@ -37,3 +37,4 @@ To run everything, you need to have the following installed:
 
 1. [Employees database for Postgres](https://github.com/h8/employees-database)
 1. [Bitnami Docker distribution documentation](https://hub.docker.com/r/bitnami/postgresql)
+1. [Gradle Docker Compose plugin](https://github.com/avast/gradle-docker-compose-plugin)
