@@ -6,3 +6,4 @@ build
 
 tmp/
 .DS_Store
+employees_data.sql
